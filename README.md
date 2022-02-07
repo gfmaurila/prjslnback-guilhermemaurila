@@ -20,3 +20,9 @@
 - cd Prjslnback-Infra
 - Add-Migration InitialCreate
 - Update-Database
+
+# Estrutura da API
+- .NET Core 5: Framework para desenvolvimento da Microsoft.
+- AutoMapper: Biblioteca para realizar mapeamento entre objetos.
+- Swagger: Documentação para a API.
+- DDD: Domain Drive Design modelagem de desenvolvimento orientado a injeção de dependência.
