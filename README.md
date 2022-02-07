@@ -26,3 +26,7 @@
 - AutoMapper: Biblioteca para realizar mapeamento entre objetos.
 - Swagger: Documentação para a API.
 - DDD: Domain Drive Design modelagem de desenvolvimento orientado a injeção de dependência.
+- Entity FrameWork
+- XUnit
+- FluentValidator
+- JWT

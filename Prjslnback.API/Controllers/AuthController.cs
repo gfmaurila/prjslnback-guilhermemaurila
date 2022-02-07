@@ -37,7 +37,7 @@ namespace Prjslnback.API.Controllers
                         Data = new
                         {
                             Token = _tokenGenerator.GenerateToken(),
-                            TokenExpires = DateTime.UtcNow.AddHours(int.Parse(_configuration["Jwt:HoursToExpire"]))
+                            TokenExpires = DateTime.UtcNow.AddHours(int.Parse(_configuration["Jwt:Time"]))
                         }
                     });
                 }
