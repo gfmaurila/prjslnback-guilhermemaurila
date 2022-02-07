@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Prjslnback.API.Token;
+using Prjslnback.API.Utilities.Configuration;
 using Prjslnback.API.ViewModels;
 using Prjslnback.Domain.Entities;
 using Prjslnback.Infra.Context;
@@ -74,9 +75,8 @@ namespace Prjslnback.API
 
             services.AddSingleton(d => Configuration);
             services.AddDbContext<PrjslnbackContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:Prjslnback"]), ServiceLifetime.Transient);
-            services.AddScoped<IEPasswordService, EPasswordService>();
-            services.AddScoped<IEPasswordRepository, EPasswordRepository>();
-            services.AddScoped<ITokenGenerator, TokenGenerator>();
+
+            services.DependencyInjectionConfiguration(Configuration);
 
             #endregion
 

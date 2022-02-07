@@ -5,15 +5,27 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.Domain", "Prjslnback.Domain\Prjslnback.Domain.csproj", "{C7A1B641-C291-4E6B-85E1-CFE50DC4D443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.Core", "Prjslnback.Core\Prjslnback.Core.csproj", "{B8A836A3-B041-408F-A60A-33DA4B2D5772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.Core", "Prjslnback.Core\Prjslnback.Core.csproj", "{B8A836A3-B041-408F-A60A-33DA4B2D5772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.Services", "Prjslnback.Services\Prjslnback.Services.csproj", "{0C7D3D53-C88B-4670-A913-58F81A9BE5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.Services", "Prjslnback.Services\Prjslnback.Services.csproj", "{0C7D3D53-C88B-4670-A913-58F81A9BE5F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.Infra", "Prjslnback.Infra\Prjslnback.Infra.csproj", "{D6262499-FB75-4DBC-849A-4C39D6CB48C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.Infra", "Prjslnback.Infra\Prjslnback.Infra.csproj", "{D6262499-FB75-4DBC-849A-4C39D6CB48C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.API", "Prjslnback.API\Prjslnback.API.csproj", "{E669F98F-C644-4B3C-884D-6AE912E2B683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.API", "Prjslnback.API\Prjslnback.API.csproj", "{E669F98F-C644-4B3C-884D-6AE912E2B683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.Tests", "Prjslnback.Tests\Prjslnback.Tests.csproj", "{B370CD6A-05B2-4EC8-93E1-43CA2FA18194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prjslnback.Tests", "Prjslnback.Tests\Prjslnback.Tests.csproj", "{B370CD6A-05B2-4EC8-93E1-43CA2FA18194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{C247B486-94AD-4045-AF4C-CEC3159EE125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{5F3CEA08-3E56-44F9-BF48-2A952BDB489F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{4387DD16-20DF-42E2-9B6A-9FA30290A350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{5A6C0E11-D7E6-4B2A-B551-2587689D343B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{33FD64C8-5C03-49BB-820C-7EF68D5633D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prjslnback.Ioc", "Prjslnback.Ioc\Prjslnback.Ioc.csproj", "{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +57,22 @@ Global
 		{B370CD6A-05B2-4EC8-93E1-43CA2FA18194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B370CD6A-05B2-4EC8-93E1-43CA2FA18194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B370CD6A-05B2-4EC8-93E1-43CA2FA18194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7A1B641-C291-4E6B-85E1-CFE50DC4D443} = {4387DD16-20DF-42E2-9B6A-9FA30290A350}
+		{B8A836A3-B041-408F-A60A-33DA4B2D5772} = {5A6C0E11-D7E6-4B2A-B551-2587689D343B}
+		{0C7D3D53-C88B-4670-A913-58F81A9BE5F1} = {5F3CEA08-3E56-44F9-BF48-2A952BDB489F}
+		{D6262499-FB75-4DBC-849A-4C39D6CB48C1} = {5A6C0E11-D7E6-4B2A-B551-2587689D343B}
+		{E669F98F-C644-4B3C-884D-6AE912E2B683} = {C247B486-94AD-4045-AF4C-CEC3159EE125}
+		{B370CD6A-05B2-4EC8-93E1-43CA2FA18194} = {33FD64C8-5C03-49BB-820C-7EF68D5633D4}
+		{5E8B963B-9442-4E5A-AB1D-C46EE5E400A2} = {5A6C0E11-D7E6-4B2A-B551-2587689D343B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE1CC2B2-FE9E-48EC-AFD0-525B6F58528E}
