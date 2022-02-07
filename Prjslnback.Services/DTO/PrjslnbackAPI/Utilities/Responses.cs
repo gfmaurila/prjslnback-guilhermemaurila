@@ -1,7 +1,7 @@
-﻿using Prjslnback.API.ViewModels;
+﻿using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 using System.Collections.Generic;
 
-namespace Prjslnback.API.Utilities
+namespace Prjslnback.Services.DTO.PrjslnbackAPI.Utilities
 {
     public static class Responses
     {

@@ -1,4 +1,4 @@
-﻿namespace Prjslnback.API.Token
+﻿namespace Prjslnback.Services.Interfaces
 {
     public interface ITokenGenerator
     {

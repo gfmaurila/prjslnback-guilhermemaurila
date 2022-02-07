@@ -1,4 +1,4 @@
-﻿namespace Prjslnback.API.ViewModels
+﻿namespace Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels
 {
     public class ResultViewModel
     {

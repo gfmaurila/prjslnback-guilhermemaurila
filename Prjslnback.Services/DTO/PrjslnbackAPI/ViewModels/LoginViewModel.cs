@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Prjslnback.API.ViewModels
+namespace Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels
 {
     public class LoginViewModel
     {

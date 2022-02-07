@@ -1,11 +1,12 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Prjslnback.Services.Interfaces;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Prjslnback.API.Token
+namespace Prjslnback.Services.Services
 {
     public class TokenGenerator : ITokenGenerator
     {

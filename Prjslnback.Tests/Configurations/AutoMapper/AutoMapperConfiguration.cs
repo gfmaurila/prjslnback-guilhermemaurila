@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Prjslnback.API.ViewModels;
 using Prjslnback.Domain.Entities;
 using Prjslnback.Services.DTO;
+using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 
 namespace Prjslnback.Tests.Configurations.AutoMapper
 {

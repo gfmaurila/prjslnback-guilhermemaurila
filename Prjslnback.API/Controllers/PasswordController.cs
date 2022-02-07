@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Prjslnback.API.Utilities;
-using Prjslnback.API.ViewModels;
 using Prjslnback.Core.Exceptions;
 using Prjslnback.Services.DTO;
+using Prjslnback.Services.DTO.PrjslnbackAPI.Utilities;
+using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 using Prjslnback.Services.Interfaces;
 using System;
 using System.Threading.Tasks;

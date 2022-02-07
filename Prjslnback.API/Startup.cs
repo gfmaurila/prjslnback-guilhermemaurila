@@ -7,16 +7,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Prjslnback.API.Token;
-using Prjslnback.API.Utilities.Configuration;
-using Prjslnback.API.ViewModels;
 using Prjslnback.Domain.Entities;
 using Prjslnback.Infra.Context;
-using Prjslnback.Infra.Interfaces;
-using Prjslnback.Infra.Repositories;
+using Prjslnback.Ioc;
 using Prjslnback.Services.DTO;
-using Prjslnback.Services.Interfaces;
-using Prjslnback.Services.Services;
+using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 using System.Text;
 
 namespace Prjslnback.API
@@ -56,18 +51,6 @@ namespace Prjslnback.API
                     ValidateAudience = false
                 };
             });
-
-            #endregion
-
-            #region AutoMapper
-
-            var autoMapperConfig = new MapperConfiguration(cfg =>
-            {
-                cfg.CreateMap<EPassword, EPasswordDTO>().ReverseMap();
-                cfg.CreateMap<CreatePasswordViewModel, EPasswordDTO>().ReverseMap();
-            });
-
-            services.AddSingleton(autoMapperConfig.CreateMapper());
 
             #endregion
 

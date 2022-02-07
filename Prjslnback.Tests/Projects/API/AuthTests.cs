@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using Prjslnback.API;
-using Prjslnback.API.ViewModels;
+using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 using System.Net;
 using System.Net.Http;
 using System.Text;

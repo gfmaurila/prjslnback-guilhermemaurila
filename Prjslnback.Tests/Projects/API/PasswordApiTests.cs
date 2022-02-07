@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Prjslnback.API.Controllers;
-using Prjslnback.API.ViewModels;
 using Prjslnback.Infra.Interfaces;
+using Prjslnback.Services.DTO.PrjslnbackAPI.ViewModels;
 using Prjslnback.Services.Interfaces;
 using Prjslnback.Services.Services;
 using Prjslnback.Tests.Configurations.AutoMapper;

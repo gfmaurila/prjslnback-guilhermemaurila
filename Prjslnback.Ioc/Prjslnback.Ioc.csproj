@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Prjslnback.API\Prjslnback.API.csproj" />
     <ProjectReference Include="..\Prjslnback.Infra\Prjslnback.Infra.csproj" />
     <ProjectReference Include="..\Prjslnback.Services\Prjslnback.Services.csproj" />
   </ItemGroup>
